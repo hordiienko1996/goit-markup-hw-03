@@ -79,7 +79,7 @@ img {
 }
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -184,12 +184,15 @@ img {
 /* Герой */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   text-align: center;
 }
 
 .hero-title {
-  padding: 200px 230px 0 230px;
-  margin-bottom: 30px;
+  width: 697px;
+  margin: 0 auto 31px;
 
   font-weight: 900;
   font-size: 44px;
@@ -201,7 +204,6 @@ img {
 
 .button {
   padding: 10px 32px;
-  margin-bottom: 200px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   min-width: 200px;
@@ -242,6 +244,10 @@ img {
 
 /*  Особенности  */
 
+.features {
+  padding-bottom: 0;
+}
+
 .feature-list .title {
   margin-bottom: 10px;
 
@@ -265,7 +271,6 @@ img {
 /* Наша команда */
 
 .team {
-  border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -277,7 +282,6 @@ img {
 }
 
 .team-list .title {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -288,9 +292,16 @@ img {
 }
 
 .team-list-profession {
+  margin-bottom: 0;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.team-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list .grid-item {
@@ -327,6 +338,7 @@ img {
 .company-address-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 /* portfolio.html */
 
 /* Фильтр проектов */
@@ -373,8 +385,6 @@ img {
 }
 
 .projects-title {
-  padding-left: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -385,10 +395,14 @@ img {
 }
 
 .projects-filter {
-  padding-left: 24px;
-  font-size: 16px;
+  margin-bottom: 0;
 
+  font-size: 16px;
   line-height: 1.87;
+}
+
+.projects-content {
+  padding: 20px 24px;
 }
 
 .projects .link {
